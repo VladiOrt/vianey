@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/vianey/static/css/main.099c41ab.css",
+    "main.js": "/vianey/static/js/main.9c5e1e20.js",
+    "static/js/787.3857fcb9.chunk.js": "/vianey/static/js/787.3857fcb9.chunk.js",
+    "static/media/dance.gif": "/vianey/static/media/dance.28b1a5648dd09f3828f7.gif",
+    "static/media/music.mp3": "/vianey/static/media/music.e1144969db63705b54f4.mp3",
+    "index.html": "/vianey/index.html",
+    "main.099c41ab.css.map": "/vianey/static/css/main.099c41ab.css.map",
+    "main.9c5e1e20.js.map": "/vianey/static/js/main.9c5e1e20.js.map",
+    "787.3857fcb9.chunk.js.map": "/vianey/static/js/787.3857fcb9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.099c41ab.css",
+    "static/js/main.9c5e1e20.js"
+  ]
+}
