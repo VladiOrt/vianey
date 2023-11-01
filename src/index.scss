@@ -1,0 +1,66 @@
+.App{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url('./assets/img/dance.gif');
+    background-size: 100vw;
+    background-position-x: -50vw;
+    background-position-y: -10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    .containerText{
+        background-color: rgba($color: #000000, $alpha: 0.7);
+        min-width: 80vw;
+        padding: 20px;
+        max-width: 100vw;
+        margin-top: 0vh;
+        min-height: 20vh;
+        max-height: 20vh;
+        overflow: hidden;
+        overflow-y: scroll;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        .text{
+            color: rgba( #FFF, 0.5);
+            font-size: 2.5rem;
+            text-align: center;
+            position: absolute;
+            animation: Recorrer 50s infinite;
+            animation-delay: 2s;
+        }
+
+        .Filtro{
+            color: rgba( #FFF, 0.5);
+            background: linear-gradient(0deg, rgba(0,0,0,1) 0%,  transparent 100%);
+            font-size: 2.5rem;
+            text-align: center;
+            position: absolute;
+            min-width: 90vw;
+            min-height: 25vh;
+        }
+
+    }
+
+
+       
+    .reproductor{
+        margin-top: 5vh;
+        min-width: 50vw;
+    }
+    @keyframes Recorrer {
+        0%{
+            margin-top: 0vh;
+        }
+        100%{
+            margin-top: -200vh;
+        }
+    }
+
+
+    
+}
